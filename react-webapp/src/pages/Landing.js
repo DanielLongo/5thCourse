@@ -28,13 +28,26 @@ function Landing(props) {
                         from-emerald-500 via-indigo-500 to-emerald-500
                         animate-text"
               >
-                [Header goes here]
+                Find that perfect class
               </h1>
-              <p className="font-CerealBK text-slate-500 mb-8 lg:text-center lg:text-lg text-md">
-                [Description goes here]
+              <p className="font-CerealBK text-slate-800 mb-8 lg:text-center lg:text-lg text-md">
+                My favorite Stanford classes so far have been ______, _______, _______, and ________.
               </p>
+              <p className="font-CerealBK text-slate-800 mb-8 lg:text-center lg:text-lg text-md">
+                Having a small class size is ______ important to me.
+              </p>
+              <p className="font-CerealBK text-slate-800 mb-8 lg:text-center lg:text-lg text-md">
+                Ratings from Carta are ____ imporant to me when chosing a class. -
+              </p>
+              <p className="font-CerealBK text-slate-800 mb-8 lg:text-center lg:text-lg text-md">
+                I'm currently taking _______ classes. I'm looking to ________ my horizons.
+              </p>
+              <p className="font-CerealBK text-slate-800 mb-8 lg:text-center lg:text-lg text-md">
+                I am a _______. Making/having friends in classes is _____ important to me. 
+              </p>
+
               <button className="btn-primary mb-4" onClick={callToAction}>
-                Call to action
+                Find me classes
               </button>
             </div>
           </div>
